@@ -1,0 +1,63 @@
+* {
+  margin: 0;
+  padding: 0;
+  -webkit-box-sizing: border-box;
+          box-sizing: border-box;
+}
+
+body {
+  display: -ms-grid;
+  display: grid;
+  row-gap: 10px;
+}
+
+a {
+  text-decoration: none;
+}
+
+ul {
+  padding: 0;
+  margin: 0;
+  list-style-type: none;
+}
+
+main {
+  display: -ms-grid;
+  display: grid;
+  row-gap: 10px;
+}
+
+main .carousel .carousel-inner .carousel-item img {
+  width: 100%;
+  height: 500px;
+  -o-object-fit: cover;
+     object-fit: cover;
+}
+
+main aside {
+  display: -ms-grid;
+  display: grid;
+  row-gap: 10px;
+}
+
+main aside ul {
+  overflow: visible;
+  max-height: 300px;
+}
+
+main aside ul li {
+  padding: 10px;
+}
+
+main aside ul li:hover {
+  background-color: #eee;
+}
+
+main .card img {
+  height: 50%;
+  -o-object-fit: cover;
+     object-fit: cover;
+  -o-object-position: top;
+     object-position: top;
+}
+/*# sourceMappingURL=index.css.map */
